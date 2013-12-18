@@ -2,7 +2,7 @@
 
 Ask users to upgrade old browser
 
-![alt tag](https://raw.github.com/vmakhaev/browser/master/img/screenshot.png)
+![alt tag](https://raw.github.com/vmakhaev/oldbrowser/master/img/screenshot.png)
 
 - Connect Middleware
 - Old browsers are redirected to "Your browser too old :(" page
