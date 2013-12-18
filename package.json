@@ -1,0 +1,13 @@
+{
+  "name": "oldbrowser",
+  "description": "Connect middleware for restrict old browsers",
+  "author": "Vladimir Makhaev <vmakhaev@gmail.com>",
+  "version": "0.0.1",
+  "main": "index.js",
+  "keywords": ["middleware", "connect", "browser"],
+  "dependencies": {
+    "useragent_parser": "~1.0.0"
+  },
+  "repository": "git://github.com/vmakhaev/oldbrowser.git",
+  "homepage": "https://github.com/vmakhaev/oldbrowser"
+}
