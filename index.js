@@ -16,6 +16,8 @@ for (var i = 0; i < browserIcons.length; i++) {
   iconFiles[imageUrl] = fs.readFileSync(__dirname + '/img/' + browserIcons[i] + '.png');
 }
 
+var template = fs.readFileSync(__dirname + '/index.html');
+
 module.exports = function (options) {
   options = options || {};
 
@@ -27,7 +29,6 @@ module.exports = function (options) {
   function middleware(req, res, next) {
     if (req.url === '/browser') {
       res.setHeader('Content-Type', 'text/html');
-      var template = fs.readFileSync(__dirname + '/index.html');
       return res.end(template);
     }
 
